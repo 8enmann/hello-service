@@ -6,8 +6,8 @@ import android.util.Log;
 
 public class HelloService extends IntentService {
 
-	public HelloService(String name) {
-		super(name);
+	public HelloService() {
+		super("HelloService");
 	}
 
 	@Override

@@ -8,7 +8,7 @@ public class HelloActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		startActivity(new Intent(getApplicationContext(), HelloService.class));
+		startService(new Intent(getApplicationContext(), HelloService.class));
 	}
 
 }
